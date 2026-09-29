@@ -1,0 +1,158 @@
+body {
+background-color: whitesmoke;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+font-size: 40px;
+font-style: italic;
+color: rgb(224, 48, 21);
+font-weight: bolder;
+float: left;
+}
+
+nav {
+background-color: whitesmoke;
+padding: 10px 20px;
+}
+
+ul {
+list-style: none;
+display: flex;
+justify-content: flex-end;
+margin: 0;
+padding: 0;
+}
+
+ul li {
+margin-left: 20px;
+}
+
+ul li a {
+text-decoration: none;
+color: black;
+font-size: 18px;
+padding: 8px 12px;
+}
+
+ul li a {
+background-color: whitesmoke;
+border-radius: 5px;
+}
+
+.category-title {
+background-color: rgb(185, 227, 239);
+text-align: center;
+padding: 45px;
+margin-top: 13px;
+}
+
+.category-title h4 {
+color: #3c72b9;
+letter-spacing: 3px;
+}
+
+.category-title h1 {
+color: #142b4a;
+font-size: 40px;
+}
+
+.category-title p {
+color: #526b85;
+font-size: 18px;
+}
+
+.intro {
+text-align: center;
+margin: 40px 0 25px;
+}
+
+.intro h1 {
+color: #142b4a;
+}
+
+.intro p {
+color: #526b85;
+}
+
+.categories {
+width: 90%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+justify-content: center;
+}
+
+.category {
+width: 45%;
+background-color: white;
+display: flex;
+border-radius: 10px;
+overflow: hidden;
+border: 1px solid #d8eaf3;
+}
+
+.category {
+box-shadow: 0 5px 15px #c8dce8;
+}
+
+.category img {
+width: 45%;
+height: 190px;
+object-fit: cover;
+}
+
+.content {
+padding: 15px;
+}
+
+.content h2 {
+color: #142b4a;
+margin-top: 5px;
+}
+
+.content p {
+color: #526b85;
+font-size: 14px;
+line-height: 1.5;
+}
+
+.content a {
+text-decoration: none;
+color: #087cff;
+font-size: 14px;
+}
+
+.content a {
+color: rgb(224, 48, 21);
+}
+
+.bottom {
+background-color: rgb(185, 227, 239);
+text-align: center;
+padding: 35px;
+margin-top: 50px;
+}
+
+.bottom h1 {
+color: #142b4a;
+}
+
+.bottom p {
+color: #526b85;
+}
+
+.bottom a {
+display: inline-block;
+text-decoration: none;
+background-color: #087cff;
+color: white;
+padding: 9px 20px;
+border-radius: 10px;
+}
+
+.bottom a {
+background-color: rgb(188, 105, 220);
+}
